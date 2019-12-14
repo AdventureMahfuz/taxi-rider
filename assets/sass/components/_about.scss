@@ -1,0 +1,11 @@
+/*about us section start*/
+.about-section{
+  position: relative;
+  @extend %bgi;
+  background-attachment: fixed;
+  &:before{
+    @extend %bg-overlay;
+    opacity: .6;
+  }
+}
+/*about us section end*/

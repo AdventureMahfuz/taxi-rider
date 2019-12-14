@@ -1,0 +1,61 @@
+/*footer bottom section start*/
+section.footer-bottom {
+  background: $primary;
+  padding: 70px 0 30px 0;
+}
+
+.fbw-title h3 {
+  font-size: 1.5em;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.footer-bottom-widget ul li {
+  display: inline-block;
+}
+
+.footer-bottom-widget ul li a {
+  display: block;
+}
+
+.footer-bottom-widget ul li a i {
+  font-size: 1.2em;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  border: 2px solid #1C7BC3;
+  border-radius: 50%;
+}
+
+.footer-bottom-widget ul li a i:hover {
+  background: #1C7BC3;
+}
+.footer-bottom-widget{
+  color: #ffffff;
+}
+.subscribe-form .form-group {position: relative;}
+
+.subscribe-form .form-group button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  border: none;
+  padding: 1px 15px;
+  background: initial;
+  color: #fff;
+  font-size: 1.5em;
+}
+.subscribe-form input::-webkit-input-placeholder{
+  color: #ffffff;
+}
+.subscribe-form .form-group button:focus {
+  outline: none;
+}
+.footer-bottom-widget ul li a{
+  margin-bottom: 5px;
+}
+
+/*footer bottom section end*/

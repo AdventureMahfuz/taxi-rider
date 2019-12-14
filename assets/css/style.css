@@ -1,0 +1,340 @@
+.about-section:before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.about-section, section.hero-section {
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.about-section:before {
+  content: "";
+  background: #000000;
+}
+
+/*Default style start*/
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.1em;
+  line-height: 1.6em;
+  letter-spacing: 0.5px;
+  color: #4a4a4a;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/*Default style end*/
+/*common style start*/
+.section-padding {
+  padding: 35px 0;
+}
+
+.section-title h5 {
+  color: purple;
+  font-size: 1.2em;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.section-title h2 {
+  font-size: 3em;
+  margin-top: 0;
+  text-transform: capitalize;
+  font-weight: 500;
+  color: #212121;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #212121;
+}
+
+a {
+  color: #4a4a4a;
+}
+
+a:hover {
+  color: purple;
+}
+
+a.theme-btn {
+  display: inline-block;
+  background: purple;
+  color: #212121;
+  padding: 5px 25px;
+  text-transform: capitalize;
+  border-radius: 5px;
+  align-items: center;
+}
+a.theme-btn i {
+  margin-right: 5px;
+  font-size: 1.3em;
+}
+a.theme-btn:hover {
+  background: #000;
+  color: purple;
+}
+
+/*common style end*/
+/*header style start*/
+header.header-section {
+  background: purple;
+}
+header.header-section .main-navigation ul {
+  text-align: right;
+}
+header.header-section .main-navigation ul li {
+  display: inline-block;
+}
+header.header-section .main-navigation ul li a {
+  display: block;
+  color: #fff;
+  text-transform: capitalize;
+  padding: 39px 10px;
+  font-weight: 500;
+}
+header.header-section .main-navigation ul li:last-child a {
+  padding-right: 0;
+}
+
+/*header style end*/
+/*mobile navigation style start*/
+.mns {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  background-color: purple;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+
+/* The navigation menu links */
+.mns a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 1.2em;
+  text-transform: capitalize;
+  color: #fff;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.mns a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.mns .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the mns (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .mns {
+    padding-top: 15px;
+  }
+
+  .mns a {
+    font-size: 18px;
+  }
+}
+/*mobile navigation style end*/
+/*hero section start*/
+section.hero-section {
+  position: relative;
+  padding: 50px 0;
+}
+section.hero-section:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.5;
+}
+section.hero-section .hero-cont h4 {
+  text-shadow: 3px 1px 0 #000000;
+  color: purple;
+  font-weight: 500;
+  font-size: 2.5em;
+}
+section.hero-section .hero-cont h1 {
+  margin-top: 0;
+  text-shadow: 0 0 10px #000000;
+  color: #fff;
+  font-weight: 700;
+  font-size: 3.1em;
+}
+
+/*hero section end*/
+/*apps download section start*/
+.uat {
+  width: 250px;
+}
+.uat img {
+  box-shadow: 0 0 23px -8px purple;
+  border-radius: 30px;
+}
+
+/*apps download section end*/
+/*ride tutorial style start*/
+.rt-section {
+  display: flex;
+}
+.rt-section .single-rtb {
+  width: 33.333%;
+  display: inline-block;
+  background: purple;
+  box-shadow: 0 0 27px 6px rgba(0, 0, 0, 0.5) inset;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  padding: 20px;
+}
+.rt-section .single-rtb img {
+  margin-right: 30px;
+}
+.rt-section .single-rtb span {
+  color: #FECC18;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 1.5em;
+}
+.rt-section .single-rtb p {
+  color: #ffffff;
+  margin: 0;
+  padding: 15px 0;
+}
+
+/*ride tutorial style end*/
+/*about us section start*/
+.about-section {
+  position: relative;
+  background-attachment: fixed;
+}
+.about-section:before {
+  opacity: 0.6;
+}
+
+/*about us section end*/
+/*promotions section start*/
+.single-si {
+  min-height: 200px;
+  margin-bottom: 30px;
+  padding: 15px;
+}
+.single-si:hover i {
+  border-radius: 50%;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.single-si i {
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  border: 1px solid purple;
+  margin-bottom: 10px;
+  color: purple;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+/*promotions section end*/
+/*footer bottom section start*/
+section.footer-bottom {
+  background: purple;
+  padding: 70px 0 30px 0;
+}
+
+.fbw-title h3 {
+  font-size: 1.5em;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.footer-bottom-widget ul li {
+  display: inline-block;
+}
+
+.footer-bottom-widget ul li a {
+  display: block;
+}
+
+.footer-bottom-widget ul li a i {
+  font-size: 1.2em;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  border: 2px solid #1C7BC3;
+  border-radius: 50%;
+}
+
+.footer-bottom-widget ul li a i:hover {
+  background: #1C7BC3;
+}
+
+.footer-bottom-widget {
+  color: #ffffff;
+}
+
+.subscribe-form .form-group {
+  position: relative;
+}
+
+.subscribe-form .form-group button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  border: none;
+  padding: 1px 15px;
+  background: initial;
+  color: #fff;
+  font-size: 1.5em;
+}
+
+.subscribe-form input::-webkit-input-placeholder {
+  color: #ffffff;
+}
+
+.subscribe-form .form-group button:focus {
+  outline: none;
+}
+
+.footer-bottom-widget ul li a {
+  margin-bottom: 5px;
+}
+
+/*footer bottom section end*/
+
+/*# sourceMappingURL=style.css.map */

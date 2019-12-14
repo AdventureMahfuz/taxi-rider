@@ -1,0 +1,25 @@
+/*header style start*/
+header.header-section{
+  background: $primary;
+  .main-navigation{
+    ul{
+      text-align: right;
+      li{
+        display: inline-block;
+        a{
+          display: block;
+          color: #fff;
+          text-transform: capitalize;
+          padding: 39px 10px;
+          font-weight: 500;
+        }
+      }
+      li:last-child{
+        a{
+          padding-right: 0;
+        }
+      }
+    }
+  }
+}
+/*header style end*/

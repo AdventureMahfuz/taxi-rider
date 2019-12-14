@@ -1,0 +1,27 @@
+/*ride tutorial style start*/
+.rt-section{
+  display: flex;
+  .single-rtb{
+    width: 33.333%;
+    display: inline-block;
+    background: $primary;
+    box-shadow: 0 0 27px 6px rgba(0,0,0,0.5) inset;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 20px;
+    img{
+      margin-right: 30px;
+    }
+    span{
+      color: #FECC18;
+      text-transform: capitalize;
+      font-weight: 700;
+      font-size: 1.5em;
+    }
+    p{
+      color: #ffffff;
+      margin: 0;
+      padding: 15px 0;
+    }
+  }
+}
+/*ride tutorial style end*/

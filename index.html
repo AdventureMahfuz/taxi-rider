@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Taxi Rider</title>
+    <link rel="icon" href="assets/images/favicon.png">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/materialize.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/hover-min.css">
+    <!--<link rel="stylesheet" href="assets/css/animate.min.css">-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!--header section start-->
+<header class="header-section">
+    <div class="container">
+        <div class="row mb-0">
+            <div class="col-3">
+                <a href="index.html">
+                    <span class="logo">
+                        <img src="assets/images/logo.png" alt="" class="img-fluid">
+                    </span>
+                </a>
+            </div>
+            <div class="col-9 d-md-inline-block d-flex">
+
+                <!--MOBILE MENU START-->
+                <div class="ml-auto my-auto d-md-none d-block">
+                    <i onclick="openNav()" class="fa fa-bars" style="color:#fff; font-size: 1.5em;"></i>
+                </div>
+                <div id="mobile-navigation" class="mns">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <ul>
+                        <li><a href="#userapp">User App</a></li>
+                        <li><a href="#aboutus">About Us</a></li>
+                        <li><a href="#driverapp">Driver App</a></li>
+                        <li><a href="#faq">Faqs</a></li>
+                    </ul>
+                </div>
+                <!--MOBILE MENU END-->
+
+                <div class="main-navigation d-md-block d-none">
+                    <ul>
+                        <li><a href="#userapp">User App</a></li>
+                        <li><a href="#aboutus">About Us</a></li>
+                        <li><a href="#driverapp">Driver App</a></li>
+                        <li><a href="#faq">Faqs</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!--header section end-->
+<!--hero section start-->
+<section class="hero-section" style="background-image: url('assets/images/hero-bg-1.jpg');">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="hero-thumb">
+                    <img src="assets/images/prime-suv.png" alt="" class="img-fluid hvr-pulse">
+                </div>
+            </div>
+            <div class="col-lg-6 d-flex md-sm-class">
+                <div class="hero-cont my-auto">
+                    <h4>Taxi-Rider Taxi Services</h4>
+                    <h1>We Provide fast,safe and reliable services!</h1>
+                    <a href="tel:+12345678" class="waves-effect waves-light purple white-text btn-large"><i class="material-icons left">call</i>Call Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--hero section end-->
+<!--user app section start-->
+<section class="user-app-section section-padding" id="userapp">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-7 d-flex">
+                <div class="uat-cont my-auto">
+                    <div class="section-title">
+                        <h5>USE THE APP AND WE WILL PICK YOU UP</h5>
+                        <h2>Taxi-Rider User App</h2>
+                    </div>
+                    <p>We have created the #1 taxi booking app that connects you to over 5000 cabs with the tap of a button. Easily request and pay for rides.</p>
+                    <p>This app identifies your location so that the driver could find you quickly and easily even if you don`t know the exact address.</p>
+                    <div class="tab mt-5">
+                        <a href="https://apps.apple.com/us/app/taxi-rider/id1453391685" class="waves-effect waves-light purple white-text btn-large mr-5 rounded shadow">android app</a>
+                        <a href="https://apps.apple.com/us/app/taxi-rider/id1453391685" class="waves-effect waves-light purple white-text btn-large rounded shadow">ios app</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5 offset-lg-1 col-md-5">
+                <div class="uat">
+                    <img src="assets/images/user-app.png" alt="" class="img-fluid hvr-wobble-vertical">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--user app section end-->
+<!--ride tutorial section start-->
+<section class="rt-section">
+    <div class="single-rtb">
+        <div class="d-flex">
+            <img src="assets/images/mt-1448-home-icon1.png" alt="" class="img-fluid">
+            <span class="my-auto">step 1</span>
+        </div>
+        <p>Open the app and choose your location, it can be detected automatically. Alternatively, you can request a callback and tell our operators where to pick you up.</p>
+    </div>
+    <div class="single-rtb">
+        <div class="d-flex">
+            <img src="assets/images/mt-1448-home-icon2.png" alt="" class="img-fluid">
+            <span class="my-auto">step 2</span>
+        </div>
+        <p>Receive a callback or a confirmation message from our operators. You can track the location of your car as soon as you confirm the order with our taxi app.</p>
+    </div>
+    <div class="single-rtb">
+        <div class="d-flex">
+            <img src="assets/images/mt-1448-home-icon3.png" alt="" class="img-fluid">
+            <span class="my-auto">step 3</span>
+        </div>
+        <p>Meet the driver and enjoy the trip! You will also receive an automatic notification with the price for your trip and a discount for your next taxi service order.</p>
+    </div>
+</section>
+<!--ride tutorial section end-->
+<!--about us section start-->
+<section class="about-section section-padding" id="aboutus" style="background-image: url('assets/images/about-bg-1.jpg');">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 mb-5">
+                <div class="section-title text-center">
+                    <h3 class="text-capitalize purple-text font-weight-bold">about us</h3>
+                    <h2 class="text-white font-weight-bold">High-Quality Taxi Services</h2>
+                </div>
+            </div>
+            <div class="col-lg-6 d-flex">
+                <div class="about-thumb my-auto">
+                    <img src="assets/images/taxi1-600x400.jpg" alt="" class="img-fluid hvr-wobble-vertical">
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="about-cont white-text">
+                    <p>Our Fare Estimator gives you an estimate of the fare of taxi rides. Get your estimate before you leave, so you can travel with confidence.</p>
+                    <p>Take a look at the statistics to see what kind of trips and deliveries we make, and don`t hesitate to call us for more details.</p>
+                </div>
+                <div class="progress-area">
+                    <span class="white-text text-capitalize">Airport Transfer</span>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%">65%</div>
+                    </div>
+                    <span class="white-text text-capitalize">VIP Taxi Service</span>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%">95%</div>
+                    </div>
+                    <span class="white-text text-capitalize">shopping</span>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">90%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--about us section end-->
+<!--driver app section start-->
+<section class="user-app-section section-padding" id="driverapp" style="background: #f6f6f6;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5 offset-lg-1 col-md-5">
+                <div class="uat">
+                    <img src="assets/images/driver-app.png" alt="" class="img-fluid hvr-wobble-vertical">
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-7 d-flex">
+                <div class="uat-cont my-auto">
+                    <div class="section-title">
+                        <h5>DRIVE YOUR VEHICLE WITH Taxi-Rider</h5>
+                        <h2>Taxi-Rider Driver App</h2>
+                    </div>
+                    <p>Earn money using your own vehicle. Join <span class="red-text">Taxi-Rider</span> now</p>
+                    <p>Join us and increase your income on your own terms. Free signup!!</p>
+                    <p>Install the driver app now.</p>
+                    <div class="tab mt-5">
+                        <a href="#" class="waves-effect waves-light purple white-text btn-large mr-5 rounded shadow">android app</a>
+                        <a href="#" class="waves-effect waves-light purple white-text btn-large rounded shadow">ios app</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--driver app section end-->
+<!--promotions section start-->
+<section class="promotions-section section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="section-title text-center">
+                    <h2 class="purple-text text-capitalize">services information</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="single-si text-center shadow rounded hvr-wobble-vertical">
+                    <i class="fas fa-money-bill-alt"></i>
+                    <h5>Affordable Pricing</h5>
+                    <p>You move around the city without breaking your pocket.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="single-si text-center shadow rounded hvr-wobble-vertical">
+                    <i class="fab fa-sourcetree"></i>
+                    <h5>Include Stops</h5>
+                    <p>Reach your final destination via multiple stops which you can add in the app itself.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="single-si text-center shadow rounded hvr-wobble-vertical">
+                    <i class="fas fa-car"></i>
+                    <h5>Comfortable Rides</h5>
+                    <p>Our drivers are trained who drop you to your location with ease.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="single-si text-center shadow rounded hvr-wobble-vertical">
+                    <i class="fas fa-calendar-alt"></i>
+                    <h5>Schedule Rides</h5>
+                    <p>Not planning to ride now? We got that covered. Use "Ride Later" option to schedule your ride.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="single-si text-center rounded shadow hvr-wobble-vertical">
+                    <i class="fas fa-user-shield"></i>
+                    <h5>Safe & Secure</h5>
+                    <p>Trust us with your ride safety. We guarantee it for you.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="single-si text-center rounded shadow hvr-wobble-vertical">
+                    <i class="fas fa-money-check"></i>
+                    <h5>Multiple Payment Modes</h5>
+                    <p>Pay using any method you want. Our app covers cash, wallet, etc.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--promotions section end-->
+<!--FAQ section start-->
+<section class="faq-section section-padding" id="faq" style="background: #f6f6f6;">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="section-title">
+                    <h2 class="purple-text">FAQS</h2>
+                </div>
+                <hr>
+                <div class="single-faq">
+                    <h5>How do I book a Taxi</h5>
+                    <p>Open the Taxi service app on your Smartphone. You are automatically located via GPS. The taxis Radar function shows you all available Taxi nearby. You confirm your location with your first click. In ‚Booking Overview’, you can change your pick-up address manually and, if required, enter a destination. You can also specify your individual booking options here.</p>
+                    <p>The next click confirms your address selection and your options, and you bindingly book a taxi. Your driver is displayed with photograph, name, rating and remaining distance.</p>
+                </div>
+                <div class="single-faq">
+                    <h5>Do I loose my taxi booking if I close the app?</h5>
+                    <p>No, the booking continues even if you close the app. A push message is sent just before the taxi arrives. If you leave the app open, you can track the taxis arrival live on the map.</p>
+                </div>
+                <div class="single-faq">
+                    <h5>How does paying with app work?</h5>
+                    <p>You register for Pay by App via the taxi booking app: Simply save the payment method of your choice (credit card, PayPal) once and you are ready for cashless and card-less payments for your taxi straightaway. After the trip, a screen with a payment request is shown. You then verify your payment details and decide whether you wish to add a tip. You can also enter a voucher code. After successful verification, you are sent a message informing you of the successful transaction. Your receipt is then emailed to you.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--FAQ section end-->
+<!--footer section start-->
+<footer>
+    <section class="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-lg-0 mb-5">
+                    <div class="footer-bottom-widget">
+                        <div class="fbw-title">
+                            <h3>CONNECT WITH US</h3>
+                        </div>
+                        <br>
+                        <ul>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-lg-0 mb-5">
+                    <div class="footer-bottom-widget">
+                        <div class="fbw-title">
+                            <h3>SUBSCRIBE WITH US</h3>
+                        </div>
+                        <br>
+                        <div class="subscribe-form">
+                            <form action="#">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Your Email">
+                                    <button><i class="fa fa-envelope"></i></button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-lg-0 mb-5">
+                    <div class="footer-bottom-widget">
+                        <div class="fbw-title">
+                            <h3>GET IN TOUCH</h3>
+                        </div>
+                        <br>
+                        <p><i class="fa fa-map-marker mr-2"></i> 1-3, Hind Street, Sunderland SR1 3QD</p>
+                        <p><i class="fa fa-phone mr-2"></i> 0330 001 1089</p>
+                        <p><i class="fa fa-envelope mr-2"></i> taxiriderltd@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</footer>
+<!--footer section end-->
+<script src="assets/js/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/materialize.min.js"></script>
+<!--<script src="assets/js/wow.min.js"></script>-->
+<script src="assets/js/custom.js"></script>
+</body>
+</html>

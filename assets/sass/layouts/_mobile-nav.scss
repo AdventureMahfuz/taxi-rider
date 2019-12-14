@@ -1,0 +1,44 @@
+/*mobile navigation style start*/
+.mns {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  background-color: $primary;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+
+/* The navigation menu links */
+.mns a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 1.2em;
+  text-transform: capitalize;
+  color: #fff;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.mns a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.mns .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+/* On smaller screens, where height is less than 450px, change the style of the mns (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .mns {padding-top: 15px;}
+  .mns a {font-size: 18px;}
+}
+/*mobile navigation style end*/
